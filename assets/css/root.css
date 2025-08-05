@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: url(/assets/webfonts/lato/lato-regular-400.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/assets/webfonts/lato/lato-italic-400.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    src: url(/assets/webfonts/lato/lato-bold-700.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: url(/assets/webfonts/lato/lato-bold-italic-700.woff2) format('woff2');
+}
+:root {
+    --primary-color: #fc5a20;
+    --secondary-color: #091623;
+    --accent-color: #00b460;
+    --base-max-section-width: 1200px;
+    --base-lg-section-min-height: 450px;
+    --base-sm-section-min-height: 400px;
+    --base-lg-section-padding: 80px 20px;
+    --base-md-section-padding: 60px 30px;
+    --base-sm-section-padding: 50px 20px;
+    --base-section-first-color: #ffffff;
+    --base-section-second-color: #eff8ef;
+    --base-border-color: #efefef;
+    --base-error-color: #ff0000;
+    --base-font-family: 'Lato', sans-serif;
+    --base-h1-lg-font-size: 50px;
+    --base-h1-lg-line-height: 60px;
+    --base-h1-md-font-size: 45px;
+    --base-h1-md-line-height: 55px;
+    --base-h1-sm-font-size: 40px;
+    --base-h1-sm-line-height: 50px;
+    --base-h2-lg-font-size: 45px;
+    --base-h2-lg-line-height: 55px;
+    --base-h2-md-font-size: 40px;
+    --base-h2-md-line-height: 50px;
+    --base-h2-sm-font-size: 35px;
+    --base-h2-sm-line-height: 45px;
+    --base-h3-lg-font-size: 40px;
+    --base-h3-lg-line-height: 50px;
+    --base-h3-md-font-size: 35px;
+    --base-h3-md-line-height: 45px;
+    --base-h3-sm-font-size: 30px;
+    --base-h3-sm-line-height: 40px;
+    --base-h456-lg-font-size: 30px;
+    --base-h456-lg-line-height: 40px;
+    --base-h456-sm-font-size: 25px;
+    --base-h456-sm-line-height: 35px;
+    --base-lg-card-title-font-size: 24px;
+    --base-lg-card-title-line-height: 33px;
+    --base-sm-card-title-font-size: 20px;
+    --base-sm-card-title-line-height: 29px;
+    --base-lg-content-font-size: 18px;
+    --base-lg-content-line-height: 27px;
+    --base-sm-content-font-size: 16px;
+    --base-sm-content-line-height: 25px;
+    --base-title-text-color: #091623;
+    --base-content-text-color: #364656;
+    --base-button-text-color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--base-font-family);
+}
+body {
+    width: 100%;
+    background-color: var(--base-section-second-color);
+    color: var(--base-content-text-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--base-title-text-color);
+}
+h1 {
+    font-size: var(--base-h1-lg-font-size);
+    line-height: var(--base-h1-lg-line-height);
+}
+h2 {
+    font-size: var(--base-h2-lg-font-size);
+    line-height: var(--base-h2-lg-line-height);
+    text-align: center;
+    padding-bottom: 30px;
+}
+h3 {
+    font-size: var(--base-h3-lg-font-size);
+    line-height: var(--base-h3-lg-line-height);
+}
+h4, h5, h6 {
+    font-size: var(--base-h456-lg-font-size);
+    line-height: var(--base-h456-lg-line-height);
+}
+p, span {
+    font-size: var(--base-lg-content-font-size);
+    font-weight: 400;
+    color: var(--base-content-text-color);
+    line-height: var(--base-lg-content-line-height);
+}
+p > a {
+    color: var(--primary-color);
+}
+p > a:hover {
+    color: var(--accent-color);
+}

@@ -1,0 +1,262 @@
+@media (max-width: 1024px) {
+    :root {
+        --base-max-section-width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-mobile-menu {
+        display: flex;
+        cursor: pointer;
+    }
+    nav .logo {
+        width: 135px;
+    }
+    h1 {
+        font-size: var(--base-h1-md-font-size);
+        line-height: var(--base-h1-md-line-height);
+    }
+    h2 {
+        font-size: var(--base-h2-md-font-size);
+        line-height: var(--base-h2-md-line-height);
+    }
+    h3 {
+        font-size: var(--base-h3-md-font-size);
+        line-height: var(--base-h3-md-line-height);
+    }
+    h4, h5, h6, .h_ib-title {
+        font-size: var(--base-lg-card-title-font-size);
+        line-height: var(--base-lg-card-title-line-height);
+    }
+    p, span, .h_ib-description {
+        font-size: var(--base-lg-content-font-size);
+        line-height: var(--base-lg-content-line-height);
+    }
+    .background-v1, .background-v2 {
+        padding: var(--base-md-section-padding);
+    }
+    .parent-section, .child-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero, .about, .whyme, .faq {
+        max-width: 800px;
+    }
+    .hero .left-column, .about .right-column, .whyme .left-column {
+        align-items: flex-start;
+    }
+    .services, .s_row1, .s_row2, #portfolio-card, #blog-card {
+        gap: 20px;
+    }
+    .s_row1, .s_row2 {
+        flex-wrap: wrap;
+    }
+    .whyme {
+        padding: 20px 20px 60px;
+    }
+    .faq .bolt-img {
+        max-width: 450px;
+        margin: -30px 0 -30px;
+    }
+    .featured-img1 h1, .featured-img2 h1, .featured-img3 h1, .featured-img4 h1 {
+        font-size: var(--base-h1-sm-font-size);
+        line-height: var(--base-h1-sm-line-height);
+    }
+    .h_icon-boxes {
+        flex-wrap: wrap;
+    }
+    .footer {
+        gap: 10px;
+    }
+    .footer-widgets {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .f_widget, #about-widget, #banner-widget {
+        width: 47%;
+    }
+}
+@media (max-width: 868px) {
+    .p_card, .pr_card, .b_card {
+        flex: 1 1 calc(50% - 20px);
+    }
+    .more-post-info .post-tags {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+    --base-max-section-width: 100%;
+    }
+    #darkMode {
+        width: 33px;
+        font-size: 20px;
+    }
+    h4, h5, h6, .h_ib-title {
+        font-size: var(--base-sm-card-title-font-size);
+        line-height: var(--base-sm-card-title-line-height);
+    }
+    p, span, .h_ib-description {
+        font-size: var(--base-sm-content-font-size);
+        line-height: var(--base-sm-content-line-height);
+    }
+    .background-v1, .background-v2 {
+        padding: var(--base-sm-section-padding);
+    }
+    .hero-content p {
+        width: 75%;
+    }
+    .parent-section, .review-info {
+        flex-direction: column;
+    }
+    .right-column, .left-column {
+        align-items: center;
+    }
+    .s_box {
+        flex: 1 1 calc(50% - 20px);
+    }
+    .slide-image img {
+        border-radius: 0px;
+    }
+    .prev, .next {
+        padding: 10px;
+    }
+    .caption {
+        font-size: 12px;
+        bottom: 10px;
+    }
+    .dot-nav {
+        margin-top: 6px;
+    }
+    .r_info {
+        align-items: center;
+    }
+    .child-section, .b_card, #pricing-card, .f_widget {
+        width: 100%;
+    }
+    .review-info {
+        gap: 10px;
+    }
+    .company-logos {
+        padding: 50px 0 20px;
+    }
+    .company-logos img {
+        height: 25px;
+        margin: 0px 20px;
+    }
+    .company-logos::before,
+    .company-logos::after {
+        width: 100px;
+    }
+    .faq .bolt-img {
+        max-width: 400px;
+        margin: -30px 0 -30px;
+    }
+    .contact-me {
+        padding-top: 60px;
+    }
+    .f_widget, #about-widget, #banner-widget {
+        width: 47%;
+    }
+}
+@media (max-width: 568px) {
+    h1 {
+        font-size: var(--base-h1-sm-font-size);
+        line-height: var(--base-h1-sm-line-height);
+    }
+    h2 {
+        font-size: var(--base-h2-sm-font-size);
+        line-height: var(--base-h2-sm-line-height);
+    }
+    h3 {
+        font-size: var(--base-h3-sm-font-size);
+        line-height: var(--base-h3-sm-line-height);
+    }
+    .s_box, .p_card, .pr_card, .b_card {
+        flex: 1 1 100%;
+    }
+    .p_card {
+        width: 100%;
+    }
+    .hero-content p {
+        width: 85%;
+    }
+    .hero, .about {
+        padding: 0;
+    }
+    .about .cta_global-btn {
+        align-self: center;
+    }
+    .whyme {
+        padding: 10px 0 30px;
+    }
+    .whyme h3 {
+        font-size: var(--base-h456-sm-font-size);
+        line-height: var(--base-h456-sm-line-height);
+    }
+    .whyme .icon-box {
+        gap: 15px;
+    }
+    .whyme .ib-title {
+        font-size: var(--base-sm-card-title-font-size);
+        line-height: var(--base-sm-card-title-line-height);
+    }
+    .whyme .icon-box i {
+        font-size: var(--base-sm-card-title-font-size);
+    }
+    .my-reviews {
+        padding: 20px 0;
+    }
+    .review-slider {
+        padding: 25px 30px 0;
+    }
+    .r_dot-nav {
+        margin-top: 0;
+    }
+    .accordion li label {
+        font-size: var(--base-sm-content-font-size);
+        line-height: var(--base-sm-content-line-height);
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .featured-img1 h1, .featured-img2 h1, .featured-img3 h1, .featured-img4 h1 {
+        font-size: var(--base-h2-sm-font-size);
+        line-height: var(--base-h2-sm-line-height);
+    }
+    .single-post {
+        padding: var(--base-sm-section-padding);
+    }
+    .sp_content h2 {
+        font-size: var(--base-h3-sm-font-size);
+        line-height: var(--base-h3-sm-line-height);
+    }
+    .sp_content h3 {
+        font-size: var(--base-h456-sm-font-size);
+        line-height: var(--base-h456-sm-line-height);
+    }
+    .more-post-info .author-info {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .comment-box h5, .reply h6 {
+        font-size: var(--base-lg-content-font-size);
+        line-height: var(--base-lg-content-line-height);
+    }
+    .f_widget, #about-widget, #banner-widget {
+        width: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .cta_double-btn {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cta_outline-btn {
+        margin-top: 0;
+    }
+}
