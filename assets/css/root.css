@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Lato';
     font-weight: 400;
-    src: url(/assets/webfonts/lato/lato-regular-400.woff2) format('woff2');
+    src: url(https://iamuzzalhossen.github.io/me/assets/webfonts/lato/lato-regular-400.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 400;
-    src: url(/assets/webfonts/lato/lato-italic-400.woff2) format('woff2');
+    src: url(https://iamuzzalhossen.github.io/me/assets/webfonts/lato/lato-italic-400.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Lato';
     font-weight: 700;
-    src: url(/assets/webfonts/lato/lato-bold-700.woff2) format('woff2');
+    src: url(https://iamuzzalhossen.github.io/me/assets/webfonts/lato/lato-bold-700.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Lato';
     font-style: italic;
     font-weight: 700;
-    src: url(/assets/webfonts/lato/lato-bold-italic-700.woff2) format('woff2');
+    src: url(https://iamuzzalhossen.github.io/me/assets/webfonts/lato/lato-bold-italic-700.woff2) format('woff2');
 }
 :root {
     --primary-color: #fc5a20;
