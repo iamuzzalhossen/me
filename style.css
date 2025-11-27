@@ -224,7 +224,8 @@ button.dropdown-toggle:hover {
     height: 40px;
     width: 100%;
 }
-#hamburger-icon, #close-icon {
+#hamburger-icon,
+#close-icon {
     outline: 0;
     border: 0;
     width: 40px;
@@ -269,7 +270,9 @@ main {
 .hero {
     padding: 0 20px;
 }
-.background-v1, .background-v2, .footer {
+.background-v1,
+.background-v2,
+.footer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -307,7 +310,11 @@ main {
 .flex-start {
     align-items: flex-start;
 }
-.cta_global-btn, .cta_outline-btn, .cta_pricing-btn, .cta_service-btn, .cta_more-btn {
+.cta_global-btn,
+.cta_outline-btn,
+.cta_pricing-btn,
+.cta_service-btn,
+.cta_more-btn {
     background-color: var(--primary-color);
     color: var(--base-button-text-color);
     border: 1px solid var(--primary-color);
@@ -324,7 +331,11 @@ main {
 .cta_service-btn, .cta_more-btn {
     padding: 8px 16px;
 }
-.cta_global-btn:hover, .cta_outline-btn:hover, .cta_pricing-btn:hover, .cta_service-btn:hover, .cta_more-btn:hover {
+.cta_global-btn:hover,
+.cta_outline-btn:hover,
+.cta_pricing-btn:hover,
+.cta_service-btn:hover,
+.cta_more-btn:hover {
     background-color: var(--accent-color);
     color: var(--base-button-text-color);
     border: 1px solid var(--accent-color);
@@ -405,7 +416,8 @@ main {
     display: block;
     margin-top: 15px;
 }
-.portfolio, .pricing-plan {
+.portfolio,
+.pricing-plan {
     max-width: var(--base-max-section-width);
     display: flex;
     flex-direction: column;
@@ -476,7 +488,8 @@ main {
     font-size: var(--base-lg-card-title-font-size);
     line-height: var(--base-lg-card-title-line-height);
 }
-.p_contents, .b_contents {
+.p_contents,
+.b_contents {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -541,14 +554,16 @@ main {
     text-align: center;
     border-radius: 30px;
 }
-.review-info, .author-info {
+.review-info,
+.author-info {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     padding: 60px 0 30px 0;
 }
-.avatar-img, .author-img {
+.avatar-img,
+.author-img {
     width: 55px;
     height: 55px;
     object-fit: cover;
@@ -565,7 +580,10 @@ main {
     line-height: var(--base-sm-card-title-line-height);
     font-weight: 600;
 }
-.r_title, .a_description, .a_link, .comment p {
+.r_title,
+.a_description,
+.a_link,
+.comment p {
     font-size: var(--base-sm-content-font-size);
     line-height: var(--base-sm-content-line-height);
     font-weight: 400;
@@ -867,7 +885,7 @@ span.b_category a:hover {
     padding: 30px 20px 50px;
 }
 .hero-global {
-    background: url(/images/hero-bg.webp) no-repeat center/cover fixed;
+    background: url('https://iamuzzalhossen.github.io/me/images/hero-bg.webp') no-repeat center/cover fixed;
     width: 100%;
     min-height: 400px;
     display: flex;
@@ -930,7 +948,8 @@ ul.bb_nav {
     flex-direction: column;
     gap: 8px;
 }
-.text-block h2, .text-block h3 {
+.text-block h2,
+.text-block h3 {
     text-align: left;
     font-size: var(--base-h2-sm-font-size);
     line-height: var(--base-h2-sm-line-height);
@@ -942,7 +961,8 @@ ul.bb_nav {
     line-height: var(--base-h456-sm-line-height);
     padding: 0;
 }
-.text-block p, .text-block ul li {
+.text-block p,
+.text-block ul li {
     color: var(--base-content-text-color);
     font-size: var(--base-lg-content-font-size);
     line-height: var(--base-lg-content-line-height);
