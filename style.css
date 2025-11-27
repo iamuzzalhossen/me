@@ -1,3 +1,4 @@
+/* Dark Mode styles */
 .dark-mode {
     --primary-color: #ff6a3d;
     --secondary-color: #0d1d2d;
@@ -16,6 +17,7 @@ body.dark-mode .company-logos img {
     margin: 0 30px;
     padding: 5px 10px;
 }
+/* Header styles */
 header {
     width: 100%;
     display: flex;
@@ -261,6 +263,7 @@ button.dropdown-toggle:hover {
 .nav-mobile-menu ul li a:hover {
     border-radius: 20px 0 0 20px;
 }
+/* Body styles */
 main {
     display: flex;
     flex-direction: column;
@@ -449,7 +452,9 @@ main {
     background-color: var(--accent-color) ;
     color: var(--base-button-text-color);
 }
-#portfolio-card, #pricing-card, #blog-card {
+#portfolio-card,
+#pricing-card,
+#blog-card {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -457,11 +462,15 @@ main {
     align-items: flex-start;
     padding: 20px 0;
 }
-#portfolio-card p, #pricing-card p, #blog-card p {
+#portfolio-card p,
+#pricing-card p,
+#blog-card p {
     font-size: var(--base-sm-content-font-size);
     line-height: var(--base-sm-content-line-height);
 }
-.p_card, .pr_card, .b_card {
+.p_card,
+.pr_card,
+.b_card {
     flex: 1 1 calc(33.33% - 20px);
     border: 1px solid var(--base-border-color);
     border-radius: 20px;
@@ -791,7 +800,8 @@ h3.logo-c_title {
     padding: 15px 20px;
     cursor: pointer;
 }
-.accordion label::before, .accordion input[type="radio"]:checked + label::before {
+.accordion label::before,
+.accordion input[type="radio"]:checked + label::before {
     content: "\f0da";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -884,6 +894,7 @@ span.b_category a:hover {
 #s_padding {
     padding: 30px 20px 50px;
 }
+/* Global styles */
 .hero-global {
     background: url('https://iamuzzalhossen.github.io/me/images/hero-bg.webp') no-repeat center/cover fixed;
     width: 100%;
@@ -970,6 +981,7 @@ ul.bb_nav {
 .text-block ul {
     padding-left: 20px;
 }
+/* Footer styles */
 .footer {
     background-color: var(--secondary-color);
     color: var(--base-button-text-color);
