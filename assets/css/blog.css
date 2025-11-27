@@ -1,7 +1,10 @@
 #b_load-more-btn {
     cursor: pointer;
 }
-.featured-img1, .featured-img2, .featured-img3, .featured-img4 {
+.featured-img1,
+.featured-img2,
+.featured-img3,
+.featured-img4 {
     background-image: url('https://iamuzzalhossen.github.io/me/images/post-thumbnail01.webp');
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +22,10 @@
 .featured-img4 {
     background-image: url('https://iamuzzalhossen.github.io/me/images/post-thumbnail04.webp');
 }
-.featured-img1::before, .featured-img2::before, .featured-img3::before, .featured-img4::before {
+.featured-img1::before,
+.featured-img2::before,
+.featured-img3::before,
+.featured-img4::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,7 +35,10 @@
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
-.featured-img1 h1, .featured-img2 h1, .featured-img3 h1, .featured-img4 h1 {
+.featured-img1 h1,
+.featured-img2 h1,
+.featured-img3 h1,
+.featured-img4 h1 {
     position: relative;
     z-index: 2;
     text-align: center;
@@ -47,7 +56,9 @@
     padding: 10px 15px;
     z-index: 2;
 }
-li.m_author, li.m_date, li.m_category {
+li.m_author,
+li.m_date,
+li.m_category {
     color: var(--base-button-text-color);
     font-size: 13px;
     letter-spacing: 1px;
