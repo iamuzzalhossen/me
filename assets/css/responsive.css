@@ -24,29 +24,40 @@
         font-size: var(--base-h3-md-font-size);
         line-height: var(--base-h3-md-line-height);
     }
-    h4, h5, h6, .h_ib-title {
+    h4, h5, h6,
+    .h_ib-title {
         font-size: var(--base-lg-card-title-font-size);
         line-height: var(--base-lg-card-title-line-height);
     }
-    p, span, .h_ib-description {
+    p, span,
+    .h_ib-description {
         font-size: var(--base-lg-content-font-size);
         line-height: var(--base-lg-content-line-height);
     }
-    .background-v1, .background-v2 {
+    .background-v1,
+    .background-v2 {
         padding: var(--base-md-section-padding);
     }
-    .parent-section, .child-section {
+    .parent-section,
+    .child-section {
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
-    .hero, .about, .whyme, .faq {
+    .hero,
+    .about,
+    .whyme,
+    .faq {
         max-width: 800px;
     }
-    .hero .left-column, .about .right-column, .whyme .left-column {
+    .hero .left-column,
+    .about .right-column,
+    .whyme .left-column {
         align-items: flex-start;
     }
-    .services, .s_row1, .s_row2, #portfolio-card, #blog-card {
+    .services, .s_row1, .s_row2,
+    #portfolio-card,
+    #blog-card {
         gap: 20px;
     }
     .s_row1, .s_row2 {
@@ -59,7 +70,10 @@
         max-width: 450px;
         margin: -30px 0 -30px;
     }
-    .featured-img1 h1, .featured-img2 h1, .featured-img3 h1, .featured-img4 h1 {
+    .featured-img1 h1,
+    .featured-img2 h1,
+    .featured-img3 h1,
+    .featured-img4 h1 {
         font-size: var(--base-h1-sm-font-size);
         line-height: var(--base-h1-sm-line-height);
     }
@@ -95,24 +109,29 @@
         width: 33px;
         font-size: 20px;
     }
-    h4, h5, h6, .h_ib-title {
+    h4, h5, h6,
+    .h_ib-title {
         font-size: var(--base-sm-card-title-font-size);
         line-height: var(--base-sm-card-title-line-height);
     }
-    p, span, .h_ib-description {
+    p, span,
+    .h_ib-description {
         font-size: var(--base-sm-content-font-size);
         line-height: var(--base-sm-content-line-height);
     }
-    .background-v1, .background-v2 {
+    .background-v1,
+    .background-v2 {
         padding: var(--base-sm-section-padding);
     }
     .hero-content p {
         width: 75%;
     }
-    .parent-section, .review-info {
+    .parent-section,
+    .review-info {
         flex-direction: column;
     }
-    .right-column, .left-column {
+    .right-column,
+    .left-column {
         align-items: center;
     }
     .s_box {
@@ -134,7 +153,10 @@
     .r_info {
         align-items: center;
     }
-    .child-section, .b_card, #pricing-card, .f_widget {
+    .child-section,
+    .b_card,
+    #pricing-card,
+    .f_widget {
         width: 100%;
     }
     .review-info {
@@ -175,7 +197,10 @@
         font-size: var(--base-h3-sm-font-size);
         line-height: var(--base-h3-sm-line-height);
     }
-    .s_box, .p_card, .pr_card, .b_card {
+    .s_box,
+    .p_card,
+    .pr_card,
+    .b_card {
         flex: 1 1 100%;
     }
     .p_card {
@@ -222,7 +247,10 @@
         padding: 10px;
         border-radius: 20px;
     }
-    .featured-img1 h1, .featured-img2 h1, .featured-img3 h1, .featured-img4 h1 {
+    .featured-img1 h1,
+    .featured-img2 h1,
+    .featured-img3 h1,
+    .featured-img4 h1 {
         font-size: var(--base-h2-sm-font-size);
         line-height: var(--base-h2-sm-line-height);
     }
